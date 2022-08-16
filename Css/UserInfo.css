@@ -1,14 +1,9 @@
 .CajaUsuarios2{
     width: 550px;
-    height: 570px;
+    height: 470px;
     margin: auto;
     margin-left: 50%;
-    background-color: #ffff;
-    border-radius: 15px;
-  
-    box-shadow:1px 4px 33px 5px #a35700;
-    -moz-box-shadow:1px 4px 33px 5px #a35700;
-    -webkit-box-shadow:1px 4px 33px 5px #a35700;
+    background-color: #d0a16386;
     position: absolute;
 
     display: flex;

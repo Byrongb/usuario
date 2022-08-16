@@ -10,7 +10,6 @@ let users = [
   
   ];
     
-    
     let posicion = 0;
     let title = document.querySelector('#Texto');
     let derecha = document.getElementById('derecha')
@@ -30,20 +29,15 @@ let users = [
         }
     
         title.innerHTML = users[posicion][1];
-    
     };
+
     derecha.addEventListener('click', siguiente)
     izquierda.addEventListener('click', anterior)
-    
-  
-  
+
     import { userInfo  } from "./users.js";
-  
     let Ver = document.getElementById('Ver')
   
-  
   function verInfo(){
-      
        root.innerHTML = '<h2 class="Titulo2">'+'DATOS DEL USUARIO '+ '</h2>'+'<ul class="listado">' + 
         '<li>'+'<b>'+'Id: '  + '</b>' + userInfo[posicion].id + '</li>' + 
         '<li>'+'<b>'+'Nickname: '+ '</b>'+ userInfo[posicion].nickname + '</li>' + 
