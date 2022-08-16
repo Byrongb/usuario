@@ -1,0 +1,31 @@
+.CajaUsuarios2{
+    width: 550px;
+    height: 570px;
+    margin: auto;
+    margin-left: 50%;
+    background-color: #ffff;
+    border-radius: 15px;
+  
+    box-shadow:1px 4px 33px 5px #a35700;
+    -moz-box-shadow:1px 4px 33px 5px #a35700;
+    -webkit-box-shadow:1px 4px 33px 5px #a35700;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+li{
+    list-style: none;
+    margin: 3px;
+}
+.Titulo2{
+    font-size: 30.5px;
+    font-weight: 700;
+    color: #a35700;
+    margin-bottom: 10%;
+}
+.listado{
+    font-size:20px ;
+}
